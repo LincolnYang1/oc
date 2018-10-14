@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', '');
+define('HTTP_SERVER', 'http://m.sgbuy8.sg/');
 
 // HTTPS
-define('HTTPS_SERVER', '');
+define('HTTPS_SERVER', 'http://m.sgbuy8.sg/');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/html/catalog/');
@@ -23,8 +23,8 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'mysql');
-define('DB_USERNAME', '');
-define('DB_PASSWORD', '');
+define('DB_USERNAME', 'xizhaotrading');
+define('DB_PASSWORD', 'xizhaotrading1');
 define('DB_DATABASE', 'opencart');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
