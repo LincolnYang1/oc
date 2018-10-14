@@ -1,3 +1,4 @@
 2018-10-14 10:17:50 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'172.17.0.3' (using password: NO) in /var/www/html/system/library/db/mysqli.php on line 7
 2018-10-14 10:17:50 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
 2018-10-14 10:17:50 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-10-14 10:49:32 - PHP Warning:  unlink(/var/www/html/system/storage/cache/cache.catalog.language.1539517771): No such file or directory in /var/www/html/system/library/cache/file.php on line 68
