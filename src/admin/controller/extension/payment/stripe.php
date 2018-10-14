@@ -75,7 +75,7 @@ class ControllerExtensionPaymentStripe extends Controller {
 
 		$data['button_save']           = $this->language->get('button_save');
 		$data['button_cancel']         = $this->language->get('button_cancel');
-		$data['currencies']			   = ['usd', 'eur'];
+		$data['currencies']			   = ['sgd'];
 
 		if($this->initStripe() == true) {
 			$data['currencies'] = \Stripe\CountrySpec::retrieve("US")['supported_payment_currencies'];
