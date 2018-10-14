@@ -1,14 +1,14 @@
 <?php
 // Text
-$_['text_title']				= 'Credit or Debit Card (Processed securely by Stripe)';
-$_['text_wait']					= 'Validating your credit card...';
-$_['text_credit_card']			= 'Credit Card Details';
+$_['text_title']				= '信用卡支付';
+$_['text_wait']					= '正在验证信用卡信息...';
+$_['text_credit_card']			= '信用卡详细信息';
 
 // Entry
-$_['entry_cc_type']				= 'Card Type';
-$_['entry_cc_number']			= 'Card Number';
-$_['entry_cc_expire_date']		= 'Card Expiry Date';
-$_['entry_cc_cvv2']				= 'CV Code';
+$_['entry_cc_type']				= '卡类型';
+$_['entry_cc_number']			= '卡号';
+$_['entry_cc_expire_date']		= '过期日期';
+$_['entry_cc_cvv2']				= '验证码CVV';
 $_['entry_cc_issue']			= 'Card Issue Number';
 
 // Help

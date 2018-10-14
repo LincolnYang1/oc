@@ -98,7 +98,7 @@ class ControllerExtensionPaymentStripe extends Controller {
 		} elseif ($this->config->has('payment_stripe_currency')) {
 			$data['stripe_currency'] = $this->config->get('payment_stripe_currency');
 		} else {
-			$data['stripe_currency'] = 'usd';
+			$data['stripe_currency'] = 'sgd';
 		}
 
 
