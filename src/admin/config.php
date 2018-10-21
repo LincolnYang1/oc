@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://m.sgbuy8.sg/admin/');
-define('HTTP_CATALOG', 'http://m.sgbuy8.sg/');
+define('HTTP_SERVER', 'http://m.sgbuy8.com/admin/');
+define('HTTP_CATALOG', 'http://m.sgbuy8.com/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://m.sgbuy8.sg/admin/');
-define('HTTPS_CATALOG', 'http://m.sgbuy8.sg/');
+define('HTTPS_SERVER', 'https://m.sgbuy8.com/admin/');
+define('HTTPS_CATALOG', 'https://m.sgbuy8.com/');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/html/admin/');
