@@ -52,6 +52,7 @@ class ModelExtensionPaymentAlipayCross extends Model {
 	function buildRequestPara($alipay_config, $para_temp) {
 		$this->alipay_config = $alipay_config;
 
+		$para_temp['product_code'] = 'NEW_OVERSEAS_SELLER';
 		$para_filter = $this->paraFilter($para_temp);
 
 		$para_sort = $this->argSort($para_filter);
@@ -60,7 +61,7 @@ class ModelExtensionPaymentAlipayCross extends Model {
 
 		$para_sort['sign'] = $mysign;
 		$para_sort['sign_type'] = strtoupper(trim($this->alipay_config['sign_type']));
-
+		
 		return $para_sort;
 	}
 
