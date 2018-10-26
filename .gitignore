@@ -1,3 +1,4 @@
 src/config.php
 src/admin/config.php 
-storage/*.*
+src/system/storage/cache/*.*
+src/system/storage/logs/*.*
